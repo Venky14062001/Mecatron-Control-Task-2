@@ -1,0 +1,8 @@
+prefix=/home/venkataraman/catkin_ws/install
+
+Name: sauvc
+Description: Description of sauvc
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsauvc
+Requires: roscpp rospy std_msgs
